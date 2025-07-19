@@ -34,14 +34,17 @@ This project is based on the [Sharingan](https://github.com/idiap/sharingan) mod
 
 ### 1. Clone the Repo
 
-```bash
 git clone https://github.com/Rashaq1/classroom-attention-Sharingan.git
 cd classroom-attention-Sharingan
-2. Setup Environment
+
+### 2. Setup Environment
+
 conda create -n sharingan python=3.9
 conda activate sharingan
 pip install -r requirements.txt
-3. Download Model Weights
+
+### 3. Download Model Weights
+
 Due to size limitations, you must manually download model weights from Google Drive:
 
 📥 Download Weights : https://drive.google.com/drive/folders/1xfGfdKdsG8Oa7T-VZPdf6-FMNrcLo2rQ?usp=share_link
@@ -51,7 +54,9 @@ videoattentiontarget.pt	checkpoints/
 yolov5m_crowdhuman.pt	weights/
 gazefollow.pt (optional)	checkpoints/
 childplay.pt (optional)	checkpoints/
-4. Run the Demo
+
+### 4. Run the Demo
+
 python demo.py --input-dir data --input-filename Classroom_Video.MP4 --output-dir data --show-gaze-vec
 Make sure your video is placed under the data/ directory and the models are in the correct paths.
 📈 Output Example
