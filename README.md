@@ -44,7 +44,7 @@ pip install -r requirements.txt
 3. Download Model Weights
 Due to size limitations, you must manually download model weights from Google Drive:
 
-📥 Download Weights
+📥 Download Weights : https://drive.google.com/drive/folders/1xfGfdKdsG8Oa7T-VZPdf6-FMNrcLo2rQ?usp=share_link
 
 File Name	Destination Folder
 videoattentiontarget.pt	checkpoints/
@@ -70,7 +70,7 @@ Real-time performance is not guaranteed out-of-the-box but can be optimized.
 If you use this work or the Sharingan model, please cite:
 
 Tafasca, S., Ba, S., & Odobez, J.-M. (2024). Sharingan: A Transformer Architecture for Multi-Person Gaze Following. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR).
-Read the paper
+Read the paper : https://openaccess.thecvf.com/content/CVPR2024/papers/Tafasca_Sharingan_A_Transformer_Architecture_for_Multi-Person_Gaze_Following_CVPR_2024_paper.pdf
 
 🤝 Contributions
 
